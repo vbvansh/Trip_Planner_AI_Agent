@@ -1,4 +1,4 @@
-## agents.py
+## Agents.py
 This file contains the definition of custom agents.
 To create a Agent, you need to define the following:
 1. Role: The role of the agent.
@@ -9,7 +9,7 @@ To create a Agent, you need to define the following:
 
     [More Details about Agent](https://docs.crewai.com/concepts/agents).
 
-## task.py
+## Task.py
 This file contains the definition of custom tasks.
 To Create a task, you need to define the following :
 1. description: A string that describes the task.
@@ -18,7 +18,7 @@ To Create a task, you need to define the following :
 
     [More Details about Task](https://docs.crewai.com/concepts/tasks).
 
-## crew (main.py)
+## Crew (main.py)
 This is the main file that you will use to run your custom crew.
 To create a Crew , you need to define Agent ,Task and following Parameters:
 1. Agent: List of agents that you want to include in the crew.
